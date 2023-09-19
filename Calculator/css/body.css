@@ -1,0 +1,10 @@
+.body {
+    background-image: url("../images/photo_money.jpg");
+    width: auto;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto
+}
