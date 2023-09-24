@@ -4,6 +4,7 @@ let formElement = document.querySelector(".js-form");
 let currencyElement = document.querySelector(".js-currency");
 let amountElement = document.querySelector(".js-amount");
 let resultElement = document.querySelector(".js-result");
+let resetElement = document.querySelector(".js-reset");
 
 let EUR = 4.46;
 let USD = 4.07;
@@ -36,5 +37,13 @@ formElement.addEventListener("submit", (event) => {
             break;
     }
 
-    resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong>${result.toFixed(2)} ${currency}</strong>`;
+        resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong>${result.toFixed(2)} ${currency}</strong>`;    
+});
+
+    let resetForm = () => {
+    resultElement.innerText = "0";
+}    
+
+    resetElement.addEventListener("click", () => {
+    resetForm();
 });
