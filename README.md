@@ -1,7 +1,7 @@
 # Currency-converter
 
 ## Demo
-(https://raphael-1118.github.io/butterfly_page/)
+(https://raphael-1118.github.io/Currency-converter/)
 
 ## Description
 This is a simple currency converter. Enter PLN value to convert to EUR, USD, CHF and GBP values. 
