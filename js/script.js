@@ -1,5 +1,5 @@
 {
-console.log("Hello everyone!!! Ten kod jest już w repozytorim Git");
+console.log("Hello everyone!!! This code is already in the Git repository.");
 
 const calculateResult = (amount, currency) => {
         const EUR = 4.46;
