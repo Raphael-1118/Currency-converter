@@ -1,6 +1,11 @@
 {
-console.log("Hello everyone!!! This code is already in the Git repository.");
+const welcome = () => {
+    console.log("Hello everyone!!! This code is already in the Git repository.");
+}
+welcome ();
+}
 
+{
 const calculateResult = (amount, currency) => {
         const EUR = 4.46;
         const USD = 4.07;
@@ -32,7 +37,6 @@ const calculateResult = (amount, currency) => {
     
         const currencyElement = document.querySelector(".js-currency");
         const amountElement = document.querySelector(".js-amount");
-       
     
         const amount = +amountElement.value;
         const currency = currencyElement.value;
@@ -48,7 +52,6 @@ const calculateResult = (amount, currency) => {
         const formElement = document.querySelector(".js-form");
 
         formElement.addEventListener("submit", onFormSubit); 
-
     }; 
 
     init ();
@@ -59,8 +62,8 @@ const calculateResult = (amount, currency) => {
         resetElement.addEventListener("click", () => {
             resultElement.innerText = "0";     
         });  
-    };    
-    
-    resetForm()
+    };      
+
+    resetForm();
 
 };
